@@ -10,45 +10,63 @@ The ADA, also known as the Americans with Disabilities Act, requires companies t
 
 Accessibility ensures that people with disabilities can access a website using assistive technologies like video captions, screen readers, and braille keyboards.
 
-I learned that there is much HTML/CSS code that is required in order to make a website more accessible. It is something that is often overlooked and not thought about by those who don't have hearing/vision impairments.
+Along with accessibility, we also have some acceptance criteria listed below that Horiseon wishes to have done.
 
-## Table of Contents (Optional)
+In conclusion, I learned that there is much HTML/CSS code that is required in order to make a website more accessible. It is something that is often overlooked and not thought about by those who don't have hearing/vision impairments.
+
+## User Story
+
+```
+AS A marketing agency
+I WANT a codebase that follows accessibility standards
+SO THAT our own site is optimized for search engines
+```
+
+## Acceptance Criteria
+
+```
+GIVEN a webpage meets accessibility standards
+WHEN I view the source code
+THEN I find semantic HTML elements
+WHEN I view the structure of the HTML elements
+THEN I find that the elements follow a logical structure independent of styling and positioning
+WHEN I view the image elements
+THEN I find accessible alt attributes
+WHEN I view the heading attributes
+THEN they fall in sequential order
+WHEN I view the title element
+THEN I find a concise, descriptive title
+```
+
+## Table of Contents
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
-- [Installation](#installation)
-- [Usage](#usage)
+- [Links to Application](#Links)
+- [Mock-Up](#Mock-Up)
 - [Credits](#credits)
 - [License](#license)
 
-## Installation
+## Links
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Below are links to access this live website and repository.
 
-## Usage
+Github: bergannation
+/
+01_accessibilityhmwrk
 
-md ![alt text] (C:\Users\brown\git\homeworks\01_homework\assets\images\screen capture.png)
+Deployed URL: https://bergannation.github.io/01_accessibilityhmwrk/
+
+## Website Mock-Up
+
+The following image shows the web application's appearance and functionality:
+
+![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./assets/images/screencapture.png)
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-If you followed tutorials, include links to those here as well.
+Nic Brown
+https://github.com/brownnicholasj
 
-## License
-
-## The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+ADA Checklist guidelines:
+https://medium.com/@krisrivenburgh/the-ada-checklist-website-compliance-guidelines-for-2019-in-plain-english-123c1d58fad9
